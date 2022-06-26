@@ -1,12 +1,12 @@
 {
     "theme_color": "#8a2be2",
     "background_color": "#8a2be2",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "https://devxord.github.io/pwa_page_studia/",
     "name": "PWA application - registration validation",
     "short_name": "PWA-APP-RV",
-    "description": "Aplikacja PWA z u\u017cyciem projektu stworzonego na pierwszych zaj\u0119ciach",
+    "description": "Aplikacja PWA",
     "icons": [
         {
             "src": "/icon-192x192.png",

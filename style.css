@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    min-width: 100vh;
+    width: 100%;
     background-color: rgb(133, 131, 131);
     display: flex;
     flex-direction: column;
@@ -16,9 +16,9 @@ body{
 }
 
 form{
-    height: 300px;
+    height: auto;
     margin: auto;
-    width: 450px;
+    width: 100%;
     background-color: rgb(156, 140, 196);
     padding: 20px;
     border: 2px solid black;
@@ -48,6 +48,8 @@ input{
     display: flex;
     flex-direction: column;
     background-color: rgb(138, 43, 226);
+    text-align: center;
+    
     color: azure;
     border-radius: 10px;
   }
@@ -82,3 +84,20 @@ input{
    
  
   }
+
+  @media (min-width: 450px){
+    form{
+      width: calc(100%/2);
+    }
+
+  }
+
+ 
+  @media (min-width: 1000px){
+    form{
+      width: calc(100%/3);
+    }
+
+  }
+    
+ 

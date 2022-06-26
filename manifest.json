@@ -3,7 +3,7 @@
     "background_color": "#8a2be2",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "https://devxord.github.io/pwa_page_studia/",
+    "start_url": "https://devxord.github.io/pwa_page_studia/index.html",
     "short_name": "PWA app",
     "name": "PWA Aplication",
     "description": "Aplikacja PWA z u\u017cyciem projektu stworzonego na pierwszych zaj\u0119ciach",

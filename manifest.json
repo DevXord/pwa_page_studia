@@ -1,7 +1,7 @@
 {
     "theme_color": "#8a2be2",
     "background_color": "#8a2be2",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "https://devxord.github.io/pwa_page_studia/",
     "name": "PWA application - registration validation",
@@ -12,6 +12,7 @@
             "src": "/manifest/icon-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
+           
         },
         {
             "src": "/manifest/icon-256x256.png",

@@ -55,7 +55,7 @@ input{
   }
   .error_class{
     height: auto;
-    width: 450px;
+    width: auto;
     margin: auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -89,12 +89,18 @@ input{
     form{
       width: calc(100%/2);
     }
+    .error_class{
+      width: calc(100%/2);
+    }
 
   }
 
  
   @media (min-width: 1000px){
     form{
+      width: calc(100%/3);
+    }
+    .error_class{
       width: calc(100%/3);
     }
 

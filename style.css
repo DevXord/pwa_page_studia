@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(133, 131, 131);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:space-between;
+  
+}
+
+form{
+    height: 300px;
+    margin: auto;
+    width: 450px;
+    background-color: rgb(156, 140, 196);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+  
+ 
+}
+input{
+    height: 18px;
+    background-color: rgb(39, 38, 32);
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+    border-radius: 7px;
+    text-align: center;
+}
+::placeholder {
+    color: rgb(186, 186, 186);
+    opacity: 1; 
+    text-align: center;
+  }
+  span{
+      color: red;
+  }
+  footer, header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(138, 43, 226);
+    color: azure;
+    border-radius: 10px;
+  }
+  .error_class{
+    height: auto;
+    width: 450px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    background-color: rgb(133, 16, 16);
+    border-radius: 7px;
+    color: white;
+
+  }
+  button{
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: 1s;
+
+  }
+  button:hover{
+      background-color: rgb(31, 31, 31);
+      color: rgb(72, 174, 252);
+   
+ 
+  }
